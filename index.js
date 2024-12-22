@@ -13,7 +13,7 @@ app.use(express.json())
 app.use('/user', router)
 app.use('/user1', postRouter)
 app.get('/', (req, res) => {    
-    res.send('Hello World!')
+    res.send('Hello jawwad!')
 })
 
 connectdb()
